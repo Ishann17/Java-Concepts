@@ -10,10 +10,6 @@ public class StringConcepts6 {
 
         System.out.println(s1 == "1:ONE");
         System.out.println(s2 == "1:ONE");
-
-        String x = "ONE ";
-        System.out.println(x.concat(x.concat("ELEVEN ")).trim());
-
     }
 }
 /*
