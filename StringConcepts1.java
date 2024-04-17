@@ -1,6 +1,6 @@
 /*The key point to remember is that when you concatenate an object with a string using the "+" operator, Java will always
 call the toString() method of that object to get a string representation, which is then used in the concatenation.*/
-class A{
+class AA{
     public String toString(){
         return null;
     }
@@ -9,7 +9,7 @@ class A{
 public class StringConcepts1 {
     public static void main(String[] args) {
         String text = null;
-        text = text + new A();
+        text = text + new AA();
         System.out.println(text.length());
     }
 }
